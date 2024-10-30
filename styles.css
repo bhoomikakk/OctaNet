@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('catdog.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-text .btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color:white;
+}
+
+.about-section img {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  background-color:white;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
